@@ -1,19 +1,45 @@
+body {
+    overflow: hidden;
+    margin: 0;
+}
 
-    body {
-        overflow: hidden;
-        margin: 0;
-    }
-    
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 1;
-    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1;
+}
 
-    .centerdiv {
-        margin: auto;
-        height: 50%;
-        width: 50%;
-        padding: 10px;
-        background: white;
+a {
+    color: white;
+    font-size: 80px;
+    font-family: Graffiti;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 6px 6px 6px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+
+}
+
+h1 {
+    font-family: Graffiti;
+    font-size: 97px;
+}
+
+@font-face {
+    font-family: Graffiti;
+    src: url('fonts/docallismeonstreet.otf');
+}
+
+@font-face {
+    font-family: OGraffiti;
+    src: url('fonts/DOCALLISME\ ON\ STREET.ttf');
 }
