@@ -1,0 +1,19 @@
+
+    body {
+        overflow: hidden;
+        margin: 0;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 1;
+    }
+
+    .centerdiv {
+        margin: auto;
+        height: 50%;
+        width: 50%;
+        padding: 10px;
+        background: white;
+}
