@@ -36,10 +36,15 @@ h1 {
 
 @font-face {
     font-family: Graffiti;
-    src: url('fonts/docallismeonstreet.otf');
+    src: url('assets/fonts/Paskowy.ttf');
 }
 
 @font-face {
     font-family: OGraffiti;
-    src: url('fonts/DOCALLISME\ ON\ STREET.ttf');
+    src: url('assets/fonts/DOCALLISME\ ON\ STREET.ttf');
+}
+
+@font-face {
+    font-family: Brush;
+    src: url('assets/fonts/Mega\ Brush.otf');
 }
